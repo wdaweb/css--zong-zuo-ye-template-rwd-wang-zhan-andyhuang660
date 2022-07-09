@@ -53,7 +53,7 @@
   font-size: 36px;
   line-height: 1.8;
 }
-p{
+.banner p{
   line-height: 1.8;
   padding-bottom: 30px;
 }
@@ -107,6 +107,10 @@ h2 .subtitle {
   margin: auto;
   padding: 100px 0;
 }
+.history-content>p {
+  color: #757F95;
+  padding-bottom: 30px;
+}
 span {
   color: #CDA45E;
 }
@@ -118,7 +122,6 @@ span {
   padding-right: 15px;
 }
 .menu {
-  width: 80%;
   margin: auto;
   padding: 100px 0;
 }
@@ -128,13 +131,14 @@ span {
   text-align: center;
 }
 .menu-content {
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100vw;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
 }
 .menu-list {
-  padding: 20px;
-  margin: 20px;
+  display: flex;
+  /* padding: 20px; */
+  /* margin: 20px; */
   text-align: center;
   /* width: 80%; */
   background-color: white;
@@ -391,20 +395,27 @@ form textarea {
     padding-left: 50px;
   }
   .menu {
-    width: 100%;
+    width: 100vw;
   }
   .menu-content {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+
   }
   .menu-list {
-    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
     display: flex;
   }
-  .menu-list .menu-descri {
-    width: 90%;
+  .menu-descri {
+    width: 50%;
   }
+  
   .menu-list h2 {
     width: 5%;
     box-sizing: border-box;
@@ -421,7 +432,15 @@ form textarea {
     box-sizing: border-box;
   } 
   .getOffter {
-   float: left;
+   position: relative;
+   
+  }
+  .offer-content {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color:rgb(34,34,34);
   }
  
   .getOffter img {
@@ -438,6 +457,15 @@ form textarea {
   }
   .chef-wrap {
     display: flex;
+  }
+  .chef-content {
+    box-sizing: border-box;
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .chef-info h1 {
+    font-size: 24px;
   }
   form {
     display: flex;
@@ -459,7 +487,7 @@ form textarea {
   }
   .gallery-img {
    float: left;
-
+   
   }
   .gallery-img img {
     width: 30%;
@@ -499,9 +527,11 @@ form textarea {
   .info {
     width: 100%;
     display: flex;
+    margin-top: 50px;
   }
   .detail {
     width: 25%;
+    margin: 20px;
   }
   .footer {
     padding: 20px;
