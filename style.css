@@ -1,0 +1,510 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.wrap {
+  width: 100vw;
+  max-width: 1200px;
+  margin: auto;
+}
+.top {
+  background-color: black;
+  display: flex;
+  /* justify-content: space-between; */
+}
+/* .top img {
+  float: left;
+} */
+/* .burger_btn .fa-bars{
+  
+} */
+.fa-bars {
+  display: inline-block;
+  color: white;
+}
+.top-list {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: none;
+}
+.banner {
+  text-align: center;
+  clear: both;
+  background-image: url('https://live.themewild.com/restora/assets/img/slider/slider-1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /* -webkit-tap-highlight-color:transparent; */
+}
+.banner h1{
+  font-family: 'Great Vibes', cursive;
+  color: #CDA45E;
+  padding-top: 50px;
+  font-size: 60px;
+  line-height: 1.8;
+}
+
+.subtitle {
+  font-size: 36px;
+  line-height: 1.8;
+}
+p{
+  line-height: 1.8;
+  padding-bottom: 30px;
+}
+.btn-yellow {
+  background: rgb(199,166,106);
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+  border: 2px solid #CDA45E;
+}
+
+.btn-white {
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  border-color: rgb(199,166,106);
+}
+
+.fa-circle-check {
+  color: rgb(199,166,106);
+}
+.arrow {
+  padding: 5% 80% 5% 5%;
+}
+.arrow i {
+  color: rgb(199,166,106);
+  padding: 0px 20px;
+}
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Great Vibes', cursive;
+  color: #CDA45E;
+}
+/* h2 {
+  color: white;
+} */
+h2 .subtitle {
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
+
+.history  {
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+}
+span {
+  color: #CDA45E;
+}
+.history-list {
+  display: flex;
+  padding: 10px;
+}
+.history-list i {
+  padding-right: 15px;
+}
+.menu {
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+}
+.menu .title,
+.menu .subtitle,
+.menu p {
+  text-align: center;
+}
+.menu-content {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.menu-list {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  /* width: 80%; */
+  background-color: white;
+  box-shadow: 0 0 40px 5px rgb(0 0 0 /5%);
+}
+.menu-list h2 {
+  color: #CDA45E;
+  padding: 30px;
+}
+
+.menu-list img {
+  border: 2px dashed rgb(199,166,106);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.choose {
+  background-color: rgb(41,41,41);
+}
+.choose .subtitle,
+.choose p {
+  color: white;
+}
+
+.choose-list {
+  width: 99%;
+  background-color: rgb(34,34,34);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.choose-content {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.choose-content i {
+  color: #CDA45E;
+  padding-bottom: 15px;
+}
+.choose-content p {
+  padding-top: 15px;
+  text-align: left;
+  color: rgb(170,170,170);
+}
+.choose-list-number {
+  color: #CDA45E;
+  padding: 50px;
+}
+.choose-list-number p {
+  color: white;
+}
+.getOffter {
+  background-color: #292929;
+  text-align-last: left;
+  margin-top: 50px;
+}
+.offer-content {
+  padding: 30px;
+  text-align: left;
+}
+.offer-content h1 {
+  color: white;
+}
+.offer-content h3 {
+  color: #CDA45E;
+  padding-top: 10px;
+}
+.offer-content p {
+  color: rgb(170,170,170);
+  padding-bottom: 30px;
+}
+.getOffter img {
+  width: 100%;
+}
+.chef-head {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.chef-content img {
+  width: 100%;
+  
+}
+.chef-info {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.chef-info  i {
+  color: white;
+  padding: 0 5px;
+}
+.chef-info div {
+  background-color:#CDA45E;
+}
+
+.cuisine-vedio {
+  background-image: url("https://live.themewild.com/restora/assets/img/video/video.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.reservation {
+  background-color: rgb(41,41,41);
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: -420px;
+}
+.reservation .title {
+  padding-top: 50px;
+}
+
+.reservation .subtitle {
+  color: white;
+  padding: 15px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+form input,
+form textarea {
+  background-color: rgb(34,34,34);
+  border: 1px solid rgb(97,91,77);
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  color: rgb(97,91,77);
+}
+
+.black,
+.footer-black{
+  background-color: rgb(41,41,41);
+}
+.black .subtitle,
+.black p,
+.footer-black{
+  color: white;
+}
+
+.feedback i {
+  color: #CDA45E;
+}
+.customer img {
+  border: 2px dashed rgb(199,166,106);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+
+
+@media screen and (min-width:768px){
+  .menu-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu-list {
+    width: 40%;
+    box-sizing: border-box;
+    /* color: lightcoral; */
+  }
+  .choose-reason {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .choose-list {
+    width: 50%;
+  }
+  .choose-list-number {
+    width: 50%;
+    box-sizing: border-box;
+  } 
+  .choose-list {
+    width: 40%;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+  }
+  .chef {
+    clear: both;
+  }
+  .chef-head {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .chef-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .chef-content {
+    width: 48%;
+    padding: 1%;
+    margin: 1%;
+    box-sizing: border-box;
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .reservation input {
+    width: 48%;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  textarea {
+    width: 96%;
+    margin: 10px;
+  }
+}
+
+
+@media screen and (min-width:992px) {
+  .about {
+    display: block;
+  }
+  .content img {
+    float: left;
+  }
+  .top-list {
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .burger_btn {
+    display: none;
+  }
+
+  .history {
+    display: flex;
+  }
+  .history-content {
+    padding-left: 50px;
+  }
+  .menu {
+    width: 100%;
+  }
+  .menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .menu-list {
+    width: 40%;
+    display: flex;
+  }
+  .menu-list .menu-descri {
+    width: 90%;
+  }
+  .menu-list h2 {
+    width: 5%;
+    box-sizing: border-box;
+
+  }
+  .choose-reason {
+    display: flex;
+  }
+  .choose-list {
+    width: 30%;
+  }
+  .choose-list-number {
+    width: 25%;
+    box-sizing: border-box;
+  } 
+  .getOffter {
+   float: left;
+  }
+ 
+  .getOffter img {
+    width: 70%;
+  }
+  .chef {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .chef-head {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .chef-wrap {
+    display: flex;
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .reservation input {
+    width: 30%;
+    box-sizing: border-box;
+    margin: 10px 10px;
+  }
+  textarea {
+    width: 92%;
+    margin-left: 10px;
+  }
+  .reservation .btn-yellow {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .gallery-img {
+   float: left;
+
+  }
+  .gallery-img img {
+    width: 30%;
+    margin: 10px;
+  }
+  .feedback {
+    display: flex;
+  }
+  .blog-wrap {
+    display: flex;
+  }
+  .blog{
+    width: 33%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .blog img {
+    width: 100%;
+  }
+  .footer-black {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .res-name {
+    width: 32%;
+  }
+  .links {
+    width: 16%;
+  }
+  .open-time {
+    width: 24%;
+  }
+  .contact {
+    width: 24%;
+  }
+  .info {
+    width: 100%;
+    display: flex;
+  }
+  .detail {
+    width: 25%;
+  }
+  .footer {
+    padding: 20px;
+  }
+  
+}
